@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fredrick Zawislak | CS Undergrad Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+  </style>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen antialiased selection:bg-amber-400 selection:text-slate-950">
+
+  <header class="sticky top-0 z-50 backdrop-blur-md bg-slate-950/80 border-b border-slate-800">
+    <div class="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
+      <a href="#" class="font-bold tracking-tight text-lg hover:text-amber-400 transition-colors">FZ.</a>
+      <nav class="flex items-center space-x-6 text-sm font-medium text-slate-400">
+        <a href="#about" class="hover:text-slate-100 transition-colors">About</a>
+        <a href="#projects" class="hover:text-slate-100 transition-colors">Projects</a>
+        <a href="#skills" class="hover:text-slate-100 transition-colors">Skills</a>
+        <a href="#experience" class="hover:text-slate-100 transition-colors">Experience</a>
+        <a href="mailto:fzawisla@purdue.edu" class="px-3.5 py-1.5 rounded-md bg-amber-400 text-slate-950 font-semibold hover:bg-amber-300 transition-colors">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-5xl mx-auto px-6 py-16 space-y-24">
+
+    <section id="about" class="space-y-6 pt-8">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-amber-400/10 text-amber-400 border border-amber-400/20">
+        <span class="w-2 h-2 rounded-full bg-amber-400 animate-pulse"></span>
+        Seeking Summer 2027 Software Engineering Internships
+      </div>
+      <div class="space-y-3">
+        <h1 class="text-4xl sm:text-5xl font-extrabold tracking-tight text-white">
+          Fredrick Zawislak
+        </h1>
+        <p class="text-lg sm:text-xl text-slate-400 max-w-2xl leading-relaxed">
+          Computer Science sophomore at <span class="text-amber-400 font-semibold">Purdue University</span> (3.79 GPA)[cite: 4, 5]. Focused on low-level systems, robotics software, AI web tooling, and scalable full-stack applications.
+        </p>
+      </div>
+      <div class="flex flex-wrap gap-4 text-sm font-medium pt-2">
+        <a href="mailto:fzawisla@purdue.edu" class="flex items-center gap-2 px-4 py-2 rounded-lg bg-slate-800 border border-slate-700 text-slate-200 hover:border-amber-400/50 hover:text-white transition">
+          fzawisla@purdue.edu [cite: 3]
+        </a>
+        <a href="https://github.com/itsdragonic" target="_blank" rel="noreferrer" class="flex items-center gap-2 px-4 py-2 rounded-lg bg-slate-800 border border-slate-700 text-slate-200 hover:border-amber-400/50 hover:text-white transition">
+          GitHub [cite: 3]
+        </a>
+        <a href="https://linkedin.com/in/fzawislak" target="_blank" rel="noreferrer" class="flex items-center gap-2 px-4 py-2 rounded-lg bg-slate-800 border border-slate-700 text-slate-200 hover:border-amber-400/50 hover:text-white transition">
+          LinkedIn [cite: 3]
+        </a>
+      </div>
+    </section>
+
+    <section id="skills" class="space-y-6">
+      <div class="border-b border-slate-800 pb-3">
+        <h2 class="text-2xl font-bold tracking-tight text-white">Technical Toolkit</h2>
+      </div>
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+        <div class="p-5 rounded-xl bg-slate-900 border border-slate-800 space-y-3">
+          <h3 class="text-xs font-bold uppercase tracking-wider text-amber-400">Languages</h3>
+          <p class="text-sm text-slate-300 leading-relaxed font-mono">
+            C/C++, Java, Python, JavaScript, HTML/CSS [cite: 39]
+          </p>
+        </div>
+        <div class="p-5 rounded-xl bg-slate-900 border border-slate-800 space-y-3">
+          <h3 class="text-xs font-bold uppercase tracking-wider text-amber-400">Frameworks & Libraries</h3>
+          <p class="text-sm text-slate-300 leading-relaxed font-mono">
+            React, Node.js, Tailwind CSS, PROS, LemLib [cite: 29, 40]
+          </p>
+        </div>
+        <div class="p-5 rounded-xl bg-slate-900 border border-slate-800 space-y-3">
+          <h3 class="text-xs font-bold uppercase tracking-wider text-amber-400">Tools & Environments</h3>
+          <p class="text-sm text-slate-300 leading-relaxed font-mono">
+            Git, VS Code, IntelliJ, Gemini API [cite: 22, 41]
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="space-y-6">
+      <div class="border-b border-slate-800 pb-3">
+        <h2 class="text-2xl font-bold tracking-tight text-white">Featured Projects</h2>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+        <div class="p-6 rounded-xl bg-slate-900 border border-slate-800 flex flex-col justify-between space-y-4 hover:border-slate-700 transition">
+          <div class="space-y-3">
+            <div class="flex items-center justify-between">
+              <h3 class="text-lg font-bold text-white">Bahasa Khek Translator</h3>
+              <a href="https://github.com/itsdragonic/khektranslator" target="_blank" class="text-xs text-amber-400 hover:underline">GitHub &rarr;</a>
+            </div>
+            <div class="flex flex-wrap gap-1.5">
+              <span class="px-2 py-0.5 rounded text-xs font-mono bg-slate-800 text-slate-300">React [cite: 22]</span>
+              <span class="px-2 py-0.5 rounded text-xs font-mono bg-slate-800 text-slate-300">Gemini API [cite: 22]</span>
+              <span class="px-2 py-0.5 rounded text-xs font-mono bg-slate-800 text-slate-300">Retrieval Alg [cite: 27]</span>
+            </div>
+            <p class="text-sm text-slate-400 leading-relaxed">
+              AI-assisted translator preserving context for an under-documented Chinese dialect with zero public translation APIs[cite: 26]. Retrieves vocabulary matching heuristics before passing curated examples to Gemini API[cite: 27].
+            </p>
+          </div>
+        </div>
+
+        <div class="p-6 rounded-xl bg-slate-900 border border-slate-800 flex flex-col justify-between space-y-4 hover:border-slate-700 transition">
+          <div class="space-y-3">
+            <div class="flex items-center justify-between">
+              <h3 class="text-lg font-bold text-white">Autonomous Robotics Software</h3>
+              <a href="https://github.com/itsdragonic/72116A" target="_blank" class="text-xs text-amber-400 hover:underline">GitHub &rarr;</a>
+            </div>
+            <div class="flex flex-wrap gap-1.5">
+              <span class="px-2 py-0.5 rounded text-xs font-mono bg-slate-800 text-slate-300">C++ [cite: 29]</span>
+              <span class="px-2 py-0.5 rounded text-xs font-mono bg-slate-800 text-slate-300">PROS [cite: 29]</span>
+              <span class="px-2 py-0.5 rounded text-xs font-mono bg-slate-800 text-slate-300">LemLib [cite: 29]</span>
+            </div>
+            <p class="text-sm text-slate-400 leading-relaxed">
+              Built real-time competition control software for competitive VEX robots[cite: 30]. Programmed trajectory tracking, motion profiling, autonomous execution, and driver control routines[cite: 30].
+            </p>
+          </div>
+        </div>
+
+        <div class="p-6 rounded-xl bg-slate-900 border border-slate-800 flex flex-col justify-between space-y-4 hover:border-slate-700 transition md:col-span-2">
+          <div class="space-y-3">
+            <div class="flex items-center justify-between">
+              <h3 class="text-lg font-bold text-white">Emoji World</h3>
+              <span class="text-xs font-mono text-slate-500">Vanilla JS Engine</span>
+            </div>
+            <div class="flex flex-wrap gap-1.5">
+              <span class="px-2 py-0.5 rounded text-xs font-mono bg-slate-800 text-slate-300">JavaScript [cite: 31]</span>
+              <span class="px-2 py-0.5 rounded text-xs font-mono bg-slate-800 text-slate-300">HTML5/CSS3 [cite: 31]</span>
+            </div>
+            <p class="text-sm text-slate-400 leading-relaxed max-w-3xl">
+              Engineered a complete sandbox RPG web runtime from scratch without frontend engines[cite: 32]. Implemented spatial collision detection, inventory management, rendering cycles, and user input pipelines using raw DOM APIs[cite: 32].
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="experience" class="space-y-6">
+      <div class="border-b border-slate-800 pb-3">
+        <h2 class="text-2xl font-bold tracking-tight text-white">Experience & Leadership</h2>
+      </div>
+      <div class="space-y-6">
+        
+        <div class="p-6 rounded-xl bg-slate-900/60 border border-slate-800 space-y-2">
+          <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between text-sm">
+            <h3 class="text-base font-bold text-white">Freelance Game Developer <span class="font-normal text-slate-400">— Norvale</span></h3>
+            <span class="text-slate-500 font-mono text-xs">Minecraft Marketplace</span>
+          </div>
+          <p class="text-sm text-slate-400 leading-relaxed">
+            Programmed gameplay mechanics for "Lucky Block Challenge," contributing to a commercial release with 1.9K+ reviews and a 4.3/5 rating[cite: 12].
+          </p>
+        </div>
+
+        <div class="p-6 rounded-xl bg-slate-900/60 border border-slate-800 space-y-2">
+          <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between text-sm">
+            <h3 class="text-base font-bold text-white">Founder & Content Creator <span class="font-normal text-slate-400">— "Dragonic"</span></h3>
+            <span class="text-slate-500 font-mono text-xs">2020 – 2023 [cite: 24]</span>
+          </div>
+          <p class="text-sm text-slate-400 leading-relaxed">
+            Scaled an independent media channel to 150K+ subscribers and 26M+ views[cite: 16]. Executed data analytics on audience retention and engagement to optimize content delivery[cite: 17].
+          </p>
+        </div>
+
+        <div class="p-6 rounded-xl bg-slate-900/60 border border-slate-800 space-y-2">
+          <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between text-sm">
+            <h3 class="text-base font-bold text-white">VEX U Pros Team Member <span class="font-normal text-slate-400">— Purdue University</span></h3>
+            <span class="text-slate-500 font-mono text-xs">Active [cite: 44]</span>
+          </div>
+          <p class="text-sm text-slate-400 leading-relaxed">
+            Collaborating on collegiate competitive robotics systems and firmware development[cite: 30, 36]. National Merit Finalist [cite: 34] & Chick-fil-A Remarkable Futures Scholar[cite: 35].
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="border-t border-slate-800 py-8 text-center text-xs text-slate-500 font-mono">
+    Fredrick Zawislak &bull; West Lafayette, IN &bull; CS 2028 [cite: 6, 7]
+  </footer>
+
+</body>
+</html>
